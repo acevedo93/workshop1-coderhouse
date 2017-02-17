@@ -1,0 +1,287 @@
+
+
+
+
+   /*---------------------------------------------------------
+   fuentes
+
+   font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+colores
+
+2c3e50 azul oscuro
+18bc9c fondos
+
+
+
+
+-------------------------------------------------------------*/
+  
+
+  /*-----------------------HEADER--------------------*/
+
+  body{
+  	margin:0px;
+  	padding:0px;
+  }
+
+  .navegacion{
+
+  	background: #2c3e50;
+  	display:flex;
+  	flex-flow:row wrap;
+  	justify-content: space-between;
+  	align-items: center;
+  	font-weight:bold;
+
+  }
+
+  .navegacion h2{
+
+  	font-family: 'Montserrat', sans-serif;
+  	color:white;
+  	padding-left: 13%;
+  	text-transform: uppercase;
+
+  }
+  .navegacion nav{
+  	padding-right: 13%;
+  }
+  .navegacion li{
+  	list-style-type: none;
+  }
+  .navegacion nav li a{
+
+  	font-family: 'Montserrat', sans-serif;
+  	color: white;
+  	text-decoration: none;
+  	padding :10px;
+  	text-transform: uppercase;
+  	font-size: 12px;
+
+  }
+
+
+
+  .presentacion{
+  	background: #18bc9c;
+  	text-align: center;
+  	padding: 50px 50px;
+
+  }
+
+  .presentacion section h2{
+
+  	color:white;
+  	font-family: "Montserrat", sans-serif;
+  	text-transform: uppercase;
+  	font-size:70px;
+  	font-weight:bold;
+  }
+
+  .presentacion section p{
+  	color:white;
+  	font-family: 'Open Sans', sans-serif;
+  	font-weight:bold;
+  }
+  .presentacion img{
+
+  	height: 200px;
+  	width: 200px;
+  }
+
+
+  /*--------------------------------HEAD------------*/
+
+
+
+  /*---------------SECTION PORTFOLIO-------------*/
+
+
+
+.portfolio{
+  text-align:center;
+
+  color:black;
+  padding: 10%;
+  font-family: "Montserrat",sans-serif;
+  font-weight:bold;
+  text-transform: uppercase;
+  font-size: 20%;
+  position: relative
+
+
+
+}
+.portfolio h3{
+
+  font-size: 30px;
+}
+    
+.portfolio div{
+ 
+  display:flex;
+  justify-content: space-between;
+  
+  flex-flow: wrap row;
+
+  
+
+}
+
+.portfolio div  img{
+
+  width: 30%;
+  height:60%;
+  padding-bottom: 20px;
+}
+
+
+
+/*----------------------SECCION PORTFOLIO-----------*/
+
+/*------------------------------------------------------------*/
+
+
+
+/*-------------------ABOUT--------------------------------------*/
+
+
+.about{
+
+  display :flex;
+  background: #007749;
+  align-items: center;
+  flex-flow: column wrap;
+  color:white;
+
+
+  
+}
+
+
+.about h3{
+
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color:white;
+  padding-top: 40px;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.about div {
+
+  display :flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  width: 40%;
+  font-family: 'Open Sans', sans-serif;
+  
+
+}
+
+.about h4{
+
+  border:solid 2px white;
+  border-radius: 5px;
+  padding :10px;
+  
+}
+.about h4:before{
+
+  
+}
+
+
+/*---------------------------------------------------------------------------*/
+
+/* -------------------------------FOOTER-----------------------------*/
+
+
+
+
+footer{
+
+  display:flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+footer h3{
+
+
+  font-family: "Montserrat",sans-serif;
+  text-transform: uppercase;
+  font-size:50px;
+}
+
+footer form{
+
+  display: flex;
+
+  flex-flow: column nowrap;
+  justify-content: cente;
+  align-items: center;
+  padding-bottom: 40px;
+  width: 40%;
+ 
+
+}
+footer form input{
+
+  margin-top:10px;
+  border-radius: 3px;
+  width: 100%;
+  padding:5px;
+  color:gray;
+}
+
+
+/*------------------------------------------------------------------------------------------
+
+
+
+/*-------------------------------mnediaqueries--------------*/
+
+
+
+
+@media screen and (max-width: 600px){
+
+  .navegacion nav{
+    visibility: hidden;
+
+  }
+ 
+ .presentacion{
+  padding:10px;
+ }
+
+
+  }
+  .presentacion img{
+
+    height: 400px;
+    width: 400px;
+  }
+  .presentacion section h2{
+    font-size: 50px;
+
+  }
+  .portfolio div{
+ 
+  display:flex;
+ 
+  
+  flex-flow: wrap column;
+
+  
+  
+
+   
+  }
+}
